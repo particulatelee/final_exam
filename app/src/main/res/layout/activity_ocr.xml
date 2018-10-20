@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="5">
+    <ImageButton
+        android:id="@+id/imageID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/chi_sim"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="hhh_chi_sim"
+            android:text="汉语"
+            android:background="@drawable/roundbutton1"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/eng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="hhh_eng"
+            android:text="英语"
+            android:background="@drawable/roundbutton1"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/OCREditText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+</LinearLayout>
