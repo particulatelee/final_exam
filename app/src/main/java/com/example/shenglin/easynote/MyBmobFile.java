@@ -3,7 +3,7 @@ package com.example.shenglin.easynote;
 import cn.bmob.v3.BmobObject;
 
 /**
- * Created by shenglin on 2017/11/13.
+ * Created by Lee on 2018/10/21.
  */
 
 public class MyBmobFile extends BmobObject {
